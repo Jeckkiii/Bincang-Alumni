@@ -84,7 +84,9 @@
 
         /* Speaker Styles */
         .speakers-wrapper {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; width: 100%;
+            display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 2rem; /* jarak antar card */
         }
 
         .speaker-card {
@@ -329,5 +331,6 @@
 </body>
 
 </html>
+
 
 
